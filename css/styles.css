@@ -1,0 +1,380 @@
+.padding{
+  padding: 0 10px;
+}
+.ul-padding{
+  padding-right: 100px;
+}
+.customize{
+  color: black;
+  background-color: white;
+}
+.random{
+  background-color: white;
+}
+.nothing{
+  margin-top: 20px;
+}
+.logo{
+  height: 50px;
+  padding: 0;
+  margin-left: 30px;
+}
+.color{
+  color: white !important;
+  letter-spacing: 0.12vw;
+  font-weight: 500;
+}
+.color:hover{
+color: black !important;
+background-color: white !important;
+border-radius: 5px;
+}
+
+.bg{
+  background-color: white;
+}
+.top-spacing{
+  padding: 0.2vw !important;
+  border: 0 !important;
+}
+.padding1{
+  color: white;
+  padding-left: 1vw;
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 0.01vw;
+  word-spacing: 0.4vw;
+}
+}
+.img-size{
+  width:120px;
+}
+.col-padding{
+  padding: 0;
+  border: 4px #343a40 solid;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4vw;
+}
+.margin{
+  margin: 10% 10%;
+}
+.alignment{
+  position: absolute;
+  right:27vw;
+  top: 9vw;
+
+}
+.size-change{
+  width: 100vw;
+  height: 50vw;
+}
+.logo-size{
+  height: 20vw;
+}
+.logo-slogan{
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 2.5vw;
+  position: absolute;
+  right: 38.4vw;
+  top: 30.8vw;
+}
+.logo-name{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 3.4vw;
+  position: absolute;
+  right:35vw;
+  top: 27vw;
+}
+.text{
+  background-color: #F0FBFA;
+  padding-top:80px;
+  padding-left: 70px;
+  padding-right: 100px;
+}
+.menu-item{
+  width:100%;
+}
+.gallery-item{
+  width: 100%;
+}
+.event-item{
+  width: 100%;
+}
+footer{
+  padding: 1.5% 15% 1px ;
+  text-align: center;
+}
+.social-icons{
+  padding: 0.7vw;
+  padding-bottom: 0;
+}
+.social{
+  background-color: #343a40;
+}
+.social-link-color{
+  color:white;
+}
+.social-link-text{
+  color: white;
+}
+.img-height{
+  height:100 vh;
+}
+.img-width{
+  width:100%;
+}
+.quote{
+  background-image: url("../css/22.jpg");
+}
+.random1{
+  text-align: center;
+  font-family: 'Henny Penny', cursive;
+  font-size: 2.7vw;
+  color: black;
+}
+
+#menu-image{
+  width: 80%;
+
+}
+.#menu-image:hover{
+  width:85%;
+  border-radius: 100%;
+  overflow: visible;
+
+
+}
+.flex-container{
+  display: flex;
+  max-width: 100vw;
+  background-color: #40E0D0;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  width: 60vw;
+  padding-top:5%;
+  padding-left: 50px;
+
+}
+.right{
+  width:40vw;
+  text-align: right;
+  padding-right: 0;
+
+}
+#menu-text{
+  font-family: 'Henny Penny', cursive;
+  font-size: 2.2vw;
+  line-height: 3.5vw;
+  color: white;
+}
+.custom-opc{
+  opacity: 0.5;
+}
+.left1{
+  width:40vw;
+  text-align: center;
+  padding-right: 50px;
+}
+.right1{
+  width: 60vw;
+  padding-top:5%;
+  padding-left: 50px;
+}
+#gallery-image{
+  width: 80%;
+  border-radius: 100%;
+}
+#gallery-image:hover{
+  width:85%;
+  border-radius: 100%;
+  overflow: visible;
+}
+.gallery-background{
+  background-image: url("../css/21.jpg");
+}
+#restaurant-basic{
+  background-image: url("../css/22.jpg");
+  padding: 6% 5% 6%;
+}
+.random3{
+  text-align: center;
+}
+.vector-size{
+  width: 15vh;
+  margin-bottom: 10%;
+}
+.restaurant-basic-text-style{
+  font-size: 8vh;
+}
+.custom-border{
+  position: relative;
+}
+.custom-border::after{
+  background-image: linear-gradient(-45deg,#40E0D0 10px, transparent 0),
+  linear-gradient(45deg, #40E0D0 10px, transparent 0);
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  -webkit-background-size:;
+  background-size: 12px 32px;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+}
+.main-images{
+  width: 23vw;
+  overflow: hidden;
+  border-radius: 1px;
+  margin-bottom: 3%;
+}
+.menu{
+  background-color: #FBF6F3;
+
+  border: 10px solid #343a40;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.gallery{
+  background-color: #FBF6F3;
+
+  border: 10px solid #343a40;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.events{
+  background-color: #FBF6F3;
+
+  border: 10px solid #343a40;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.menu-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+.main-image{
+  width: 100%;
+  overflow: hidden;
+}
+.main-images{
+  transition: transform .5s ease;
+}
+.main-images:hover{
+  transform: scale(1.5);
+}
+.menu-images{
+  width: 27vw;
+  height: 28vw;
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+.menu-image{
+  transition: transform .5s ease;
+}
+.menu-image:hover{
+  transform: scale(1.5);
+}
+
+.items{
+  margin: 1.7vw;
+  text-align: center;
+}
+.items:hover{
+  box-shadow: 10px 10px 80px white ,-10px -10px 80px white ;
+}
+.main-text{
+  color:#343a40;
+}
+.main-link{
+  text-decoration: none !important;
+}
+@media (max-width:780px) {
+  .alignment{
+    position: absolute;
+    right:15vw;
+    top: 9vw;
+  }
+
+  .logo-size{
+    height: 30vw;
+  }
+  .logo-slogan{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 3.8vw;
+    position: absolute;
+    right: 31.7vw;
+    top: 47vw;
+  }
+  .logo-name{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 5vw;
+    position: absolute;
+    right:28vw;
+    top: 42vw;
+  }
+
+.flex-container{
+  flex-direction: column;
+}
+.menu-images{
+  width: 45vw;
+  height: 45vw;
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+.main-images{
+  width: 40vw;
+  overflow: hidden;
+  border-radius: 1px;
+  margin-bottom: 3%;
+}
+.size-change{
+  height: 70vw;
+}
+.alignment{
+  top: 15vw;
+}
+}
+.main-button{
+  position: absolute;
+  top: 38vw;
+  left: 30.4vw;
+}
+.BUTTON_UBP {
+   background-color: #FF7500;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 2vw;
+   font-weight: 900;
+   padding: 0.9vw 1.3vw 0.9vw ;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   border-radius: 0.5vw;
+}
+
+.BUTTON_UBP:hover {
+   border: solid #337FED 0;
+    background: #F58D33;
+   text-decoration: none;
+   color: white;
+}
+.button_1{
+  margin-right: 5vw;
+}
+@media (max-width:780px)  {
+  .main-button{
+    position: absolute;
+    top: 55vw;
+    left: 29.4vw;
+  }
+}

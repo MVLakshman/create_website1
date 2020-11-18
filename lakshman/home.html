@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> ORDER </title>
+		<link rel="stylesheet" type="text/css" href="css/chome.css">
+		<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" sizes="16x16" href="9.png">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-light navbar-light  top-spacing fixed-top">
+	        <h2 class="padding1">Grilled Tales</h2>
+<!-- 	        <button class="navbar-toggler btn btn-light" type="button" data-toggle="collapse" data-target="#Navigation" aria-controls="Navigation" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button> -->
+	        <span class="collapse navbar-collapse" id="Navigation">
+				<ul class="navbar-nav ml-auto ul-padding">
+            		<li class="nav-item active padding">
+              			<a class="nav-link color" href="../index.html">HOME</a>
+            		</li>
+            		<li class="nav-item padding">
+              			<a class="nav-link color" href="../lakshman/home.html">MENU</a>
+            		</li>
+            		<li class="nav-item padding">
+              			<a class="nav-link color" href="../reservation/index.html">RESERVATION</a>
+            		</li>
+					<li class="nav-item padding">
+						<a class="nav-link color" href="../lakshman/jweek2.html">GALLERY</a>
+					</li>
+					<li class="nav-item padding">
+						<a class="nav-link color" href="../events/events.html">EVENTS</a>
+					</li>
+          		</ul>
+        	</span>
+      	</nav>
+
+		<div class="header">
+			<h1>MENU</h1>
+		</div>
+		<h2> <i>APPETIZERS</i> </h2>
+		<section class="row">
+			<div id="food1" class="food">
+					<img src="project/appetizers/vegsprroll.jpg" alt="Vegetarian Spring Roll">
+					<legend>Veg Spring Roll</legend>
+					<span>₹40</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food1')">ADD</button>
+			</div>
+
+			<div id="food2" class="food">
+					<img src="project/appetizers/veg_momos.jpg" alt="Vegetarian Momos">
+					<legend>Veg Momos</legend>
+					<span>₹50</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food2')">ADD</button>
+			</div>
+
+			<div id="food3" class="food">
+					<img src="project/appetizers/chicken momos.jpg" alt="Chicken Momos">
+					<legend>Chicken Momos</legend>
+					<span>₹70</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food3')">ADD</button>
+			</div>
+
+			<div id="food4" class="food">
+					<img src="project/appetizers/chilli_potato.jpg" alt="Cripsy Honey Chilli Potato">
+					<legend>Chilli Potato</legend>
+					<span>₹60</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food4')">ADD</button>
+			</div>
+		</section>
+
+		<h2> <i>PIZZA & BURGERS</i> </h2>
+		<section class="row">
+			<div id="food5" class="food">
+					<img src="project/pizza_burger/Marg_pizza.jpg" alt="Margherita Pizza">
+					<legend>Margherita Pizza</legend>
+					<span>₹100</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food5')">ADD</button>
+			</div>
+
+			<div id="food6" class="food">
+					<img src="project/pizza_burger/Moza_pizza.jpg" alt="Mozarella Cheese Pizza">
+					<legend>Mozarella Cheese Pizza</legend>
+					<span>₹120</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food6')">ADD</button>
+			</div>
+
+			<div id="food7" class="food">
+					<img src="project/pizza_burger/Sal_burg.jpg" alt="Salmon Burger">
+					<legend>Salmon Burger</legend>
+					<span>₹100</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food7')">ADD</button>
+			</div>
+
+			<div id="food8" class="food">
+					<img src="project/pizza_burger/Avoc_Burg.jpg" alt="Avocado Burger">
+					<legend>Avocado Burger</legend>
+					<span>₹100</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food8')">ADD</button>
+			</div>
+		</section>
+
+		<h2> <i>CAKES</i> </h2>
+		<section class="row">
+			<div id="food9" class="food">
+					<img src="project/cakes/pine_cake.jpg" alt="Pineapple Cake">
+					<legend>Pineapple Cake</legend>
+					<span>₹55</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food9')">ADD</button>
+			</div>
+
+			<div id="food10" class="food">
+					<img src="project/cakes/black_cake.jpg" alt="Black Forest Cake">
+					<legend>Black Forest Cake</legend>
+					<span>₹60</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food10')">ADD</button>
+			</div>
+
+			<div id="food11" class="food">
+					<img src="project/cakes/cheese_cake.jpg" alt="Cheese Cake">
+					<legend>Cheese Cake</legend>
+					<span>₹50</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food11')">ADD</button>
+			</div>
+
+			<div id="food12" class="food">
+					<img src="project/cakes/unicorn_cake.png" alt="Unicorn Icecream Cake">
+					<legend>Unicorn Cake</legend>
+					<span>₹65</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food12')">ADD</button>
+			</div>
+		</section>
+
+		<h2> <i>DRINKS</i> </h2>
+		<section class="row">
+			<div id="food13" class="food">
+					<img src="project/drinks/oreo_milkshake.jpg" alt="Chocolate Oreo Milkshake">
+					<legend>Oreo Milkshake</legend>
+					<span>₹75</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food13')">ADD</button>
+			</div>
+
+			<div id="food14" class="food">
+					<img src="project/drinks/cold-coffee.jpg" alt="Cold Coffee Drink">
+					<legend>Cold Coffee</legend>
+					<span>₹75</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food14')">ADD</button>
+			</div>
+
+			<div id="food15" class="food">
+					<img src="project/drinks/ban_smoothie.jpg" alt="Chocolate Smoothie">
+					<legend>Chocolate Smoothie</legend>
+					<span>₹75</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food15')">ADD</button>
+			</div>
+
+			<div id="food16" class="food">
+					<img src="project/drinks/straw_shake.jpg" alt="StrawBerry Mixed Shake">
+					<legend>StrawBerry Shake</legend>
+					<span>₹75</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food16')">ADD</button>
+			</div>
+		</section>
+
+		<h2> <i>BREAKFAST</i> </h2>
+		<section class="row">
+			<div id="food17" class="food">
+					<img src="project/breakfast/Broc_cups.jpg" alt="Broccoli Quiche Cups">
+					<legend>Broccoli Quiche Cups</legend>
+					<span>₹90</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food17')">ADD</button>
+			</div>
+
+			<div id="food18" class="food">
+					<img src="project/breakfast/scram_egg.jpg" alt= "Scrambled Egg Bacon">
+					<legend>Scrambled Egg Bacon</legend>
+					<span>₹80</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food18')">ADD</button>
+			</div>
+
+			<div id="food19" class="food">
+					<img src="project/breakfast/Turkish.jpg" alt= "Turkish Menemen">
+					<legend>Turkish Menemen</legend>
+					<span>₹95</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food19')">ADD</button>
+			</div>
+
+			<div id="food20" class="food">
+					<img src="project/breakfast/veg_brunch.jpg" alt= "Vegan Brunch">
+					<legend>Vegan Brunch</legend>
+					<span>₹95</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food20')">ADD</button>
+			</div>
+		</section>
+
+		<h2> <i>GRILLED TALES SPECIAL</i> </h2>
+		<section class="row">
+			<div id="food21" class="food">
+					<img src="project/Grilled_tales/Chick_skew.jpg" alt="Chicken Skewers">
+					<legend>Chicken Skewers</legend>
+					<span>₹110</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food21')">ADD</button>
+			</div>
+
+			<div id="food22" class="food">
+					<img src="project/Grilled_tales/chick_wings.png" alt="Grilled Chicken Wings">
+					<legend>Grilled Chicken Wings</legend>
+					<span>₹120</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food22')">ADD</button>
+			</div>
+
+			<div id="food23" class="food">
+					<img src="project/Grilled_tales/corn_salsa.jpg" alt="Grilled Corn Salsa">
+					<legend>Grilled Corn Salsa</legend>
+					<span>₹100</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food23')">ADD</button>
+			</div>
+
+			<div id="food24" class="food">
+					<img src="project/Grilled_tales/pizza_bread.jpg" alt= "Grilled Pizza Bread">
+					<legend>Grilled Pizza Bread</legend>
+					<span>₹85</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food24')">ADD</button>
+			</div>
+		</section>
+		<section class="row">
+			<div id="food25" class="food">
+					<img src="project/Grilled_tales/potato.jpg" alt="Grilled Potatoes">
+					<legend>Grilled Potatoes</legend>
+					<span>₹80</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food25')">ADD</button>
+			</div>
+
+			<div id="food26" class="food">
+					<img src="project/Grilled_tales/spiral_franks.jpg" alt="Grilled Spiral Franks">
+					<legend>Grilled Spiral Franks</legend>
+					<span>₹125</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food26')">ADD</button>
+			</div>
+
+			<div id="food27" class="food">
+					<img src="project/Grilled_tales/bun_burger.jpg" alt="Pineapple Bun Burgers">
+					<legend>Pineapple Bun Burgers</legend>
+					<span>₹105</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food27')">ADD</button>
+			</div>
+
+			<div id="food28" class="food">
+					<img src="project/Grilled_tales/spicy_broc.jpg" alt= "Spicy Grilled Broccoli">
+					<legend>Spicy Grilled Broccoli</legend>
+					<span>₹115</span>
+					<input type="number" value="0" min="0" max="15" required>
+					<button onclick="add('food28')">ADD</button>
+			</div>
+		</section>
+
+                            <!--   Making the list of orders -->
+		<section class="order">
+			<button id="change" onclick="sub('order', 'back')">Order</button>
+		</section>
+
+	    <div class='container'>
+	    	<section class="back">
+				<a id="change2" href="home.html"  >Back</a>
+			</section>
+
+	        <div class='window'>
+	        	<div class='order-info'>
+					<div class='order-info-content'>
+			            <h3>Order Summary</h3>
+			            <div class="line"></div>
+			            <table class='order-table'>
+			                <tbody>
+			                	<tr><td class='rem' id="td1"></td><td class='rem' id="td2"></td></tr>
+			                	<tr><td class='rem' id="td3"></td></tr>
+			                </tbody>
+			            </table>
+
+			            <div class="line"></div>
+			            <table class='order-table'>
+			                <tbody>
+			                	<tr><td class='rem' id="td4"></td><td class='rem' id="td5"></td></tr>
+			                	<tr><td class='rem' id="td6"></td></tr>
+			                </tbody>
+			            </table>
+
+			            <div class="line"></div>
+			            <table class='order-table'>
+			                <tbody>
+			                	<tr><td class='rem' id="td7"></td><td class='rem' id="td8"></td></tr>
+			                	<tr><td class='rem' id="td9"></td></tr>
+			                </tbody>
+			            </table>
+
+			            <div class="line"></div>
+			            <table class='order-table'>
+			                <tbody>
+			                	<tr><td class='rem' id="td10"></td><td class='rem' id="td11"></td></tr>
+			                	<tr><td class='rem' id="td12"></td></tr>
+			                </tbody>
+			            </table>
+
+			            <div class="line"></div>
+			            <table class='order-table'>
+			                <tbody>
+			                	<tr><td class='rem' id="td13"></td><td class='rem' id="td14"></td></tr>
+			                	<tr><td class='rem' id="td15"></td></tr>
+			                </tbody>
+			            </table>
+
+			            <div class="line"></div>
+			            <table class='order-table'>
+			                <tbody>
+			                	<tr><td class='rem' id="td16"></td><td class='rem' id="td17"></td></tr>
+			                	<tr><td class='rem' id="td18"></td></tr>
+			                </tbody>
+			            </table>
+
+						<div class='line'></div>
+			            <div class='total'>
+			                <span style='float:left;'>
+				                <div class='thin dense'>VAT 20%</div>
+				                <div class='thin dense'>Delivery</div>
+				                TOTAL
+				            </span>
+			                <span id="total_price" style='float:right; text-align:right;'></span>
+			            </div>
+			        </div>
+			    </div>
+
+			    <div class='credit-info'>
+              		<div class='credit-info-content'>
+		                <table class='half-input-table'>
+							<tr>
+								<td>Please select your card: </td>
+								<td><div class='dropdown' id='card-dropdown'><div class='dropdown-btn' id='current-card'>Visa</div>
+								<div class='dropdown-select'>
+								<ul>
+									<li>Master Card</li>
+									<li>American Express</li>
+									</ul></div>
+								</div>
+								</td>
+							</tr>
+						</table>
+						<img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png' height='80' class='credit-card-image' id='credit-card-image'></img>
+						Card Number
+						<input class='input-field'></input>
+						Card Holder
+						<input class='input-field'></input>
+						<table class='half-input-table'>
+							<tr>
+								<td> Expires
+									<input class='input-field'></input>
+								</td>
+								<td>CVC
+									<input class='input-field'></input>
+								</td>
+							</tr>
+						</table>
+						<button class='pay-btn'>Checkout</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="menu.js"></script>
+</html>
